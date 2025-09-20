@@ -71,4 +71,4 @@ npm run preview
 
 ## 👨‍💻 Team  
 
-Built with ❤️ during **SIH Hackathon** by **The Neural Nexus**.  
+Built with ❤️ by **The Neural Nexus**.  
