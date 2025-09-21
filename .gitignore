@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-run-dev.bet
-run-preview.bet
+run-dev.bat
+run-preview.bat
 package-lock.json
-node_modules/
+.vercel

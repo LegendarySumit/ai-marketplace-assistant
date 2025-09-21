@@ -3,16 +3,16 @@ import logoUrl from '../assets/logo.svg'
 
 export default function Footer() {
   return (
-    <footer className="mt-16 border-t border-gray-800/60">
+    <footer className="mt-16 border-t border-gray-800/60 footer-blend">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 text-sm">
           <div className="sm:col-span-2">
             <div className="flex items-center gap-2">
               <img src={logoUrl} alt="logo" className="h-6 w-6" />
-              <div className="text-lg font-semibold gradient-text">ArtisanAI</div>
+              <div className="text-lg font-semibold gradient-text">Artifex</div>
             </div>
             <p className="mt-2 text-gray-400">
-              Empowering local artisans with AI-powered tools for better product listings, fair pricing, and customer engagement.
+              Artifex empowers local artisans with smart tools for beautiful listings, fair pricing, and delighted customers.
             </p>
           </div>
           <div>
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-xs text-gray-500">
-          © 2024 ArtisanAI. Built with ❤️ for local artisans worldwide.
+          © 2025 The Neural Nexus™ . Handcrafted with ❤️ for creators everywhere.
         </div>
       </div>
     </footer>

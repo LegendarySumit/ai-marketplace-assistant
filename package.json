@@ -1,15 +1,16 @@
 {
-  "name": "ai-marketplace-assistant",
+  "name": "artifex",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
+    "qrcode": "^1.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.1"
